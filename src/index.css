@@ -1,0 +1,27 @@
+@keyframes skill-carousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-skill-carousel {
+  animation: skill-carousel 20s linear infinite;
+}
+
+/* Pause animation on hover */
+.group:hover .animate-skill-carousel {
+  animation-play-state: paused;
+}
+// tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
+    },
+  },
+}

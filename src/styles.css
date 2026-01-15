@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #111;
+  color: white;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.page {
+  padding: 60px;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 25px;
+  background: #111;
+  color: white;
+  margin-top: 60px;
+}
+
+.project-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
