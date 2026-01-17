@@ -8,7 +8,7 @@
 }
 
 .animate-skill-carousel {
-  animation: skill-carousel 20s linear infinite;
+  animation: skill-carousel 10s linear infinite;
 }
 
 /* Pause animation on hover */

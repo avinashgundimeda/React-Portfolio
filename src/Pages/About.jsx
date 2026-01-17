@@ -86,7 +86,7 @@ const About = () => {
               <h4 className="text-base font-medium text-gray-800">
                 Intermediate (MPC)
               </h4>
-              <p className="text-sm text-gray-600">Sri Chaitanya Junior College</p>
+              <p className="text-sm text-gray-600">Sri Sar Junior College</p>
             </div>
 
             <div>
@@ -94,7 +94,7 @@ const About = () => {
               <h4 className="text-base font-medium text-gray-800">
                 Secondary School Education
               </h4>
-              <p className="text-sm text-gray-600">Z.P. High School</p>
+              <p className="text-sm text-gray-600">Universal High School - Inkollu</p>
             </div>
 
           </div>
