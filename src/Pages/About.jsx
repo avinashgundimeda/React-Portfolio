@@ -20,6 +20,7 @@ import animate from "../assets/animate.png";
 
 
 
+
 const About = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
