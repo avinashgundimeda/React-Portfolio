@@ -58,11 +58,11 @@ const Home = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold leading-[1.1] text-zinc-800 mb-6 ml-4">
-                  Frontend developer, cybersecurity student, game developer, and
-                  content creator.
+                  Full stack Developer, Cybersecurity student, Game developer, and
+                  Content creator.
                 </h1>
                 <p className="text-[18px] leading-[1.7] tracking-[0.2px] text-gray-600 font-normal mb-8 text-base ml-4">
-                  I am a frontend developer and cybersecurity student with
+                  I am a Full stack developer and cybersecurity student with
                   ongoing interest in game development and digital content
                   creation. My focus is on understanding how technology works,
                   building useful products, and continuously improving through
