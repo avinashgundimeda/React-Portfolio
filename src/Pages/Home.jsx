@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Footer from "../Components/Footer";
-import avinash from "../assets/avi.png";
-import js from "../assets/logos/js.png";
+import { SiLeetcode } from "react-icons/si";
+
+import avinash from "../assets/avi.png"; // Verify this exists, otherwise comment out
+import js from "../assets/skillsLogos/js.png";
 import animate from "../assets/animate.png";
-import react from "../assets/logos/react.svg";
-import python from "../assets/Skills/Python.svg";
-import java from "../assets/Skills/Java.svg";
+import react from "../assets/skillsLogos/reactjs.png";
+import python from "../assets/skillsLogos/python.png";
 
 const Home = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,7 +31,7 @@ const Home = () => {
             <img
               src={animate}
               alt="Avatar"
-              className="w-15 h-15 rounded-full border-2 border-white bg-white mt-5"
+              className="w-16 h-16 rounded-full border-2 border-white mt-5"
             />
           </div>
           {/* Spacer for symmetry */}
@@ -51,14 +51,14 @@ const Home = () => {
               <img
                 src={animate}
                 alt="Profile"
-                className="w-26 h-26 rounded-full border border-gray-200"
+                className="w-28 h-28 rounded-full border border-gray-200"
               />
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
               <div>
-                <h1 className="text-4xl md:text-5xl font-bold leading-[1.1] text-zinc-800 mb-6 ml-4">
-                  Frontend Dev, CyberSecurity student, Game developer, and
+                <h1 className="text-4xl md:text-4xl leading-[20px] font-bold leading-[1.1] text-zinc-800 mb-6 ml-4">
+                  Full stack developer, Cyber Security, Game developer, and
                   Content creator.
                 </h1>
                 <p className="text-[18px] leading-[1.7] tracking-[0.2px] text-gray-600 font-normal mb-8 text-base ml-4">
@@ -69,10 +69,21 @@ const Home = () => {
                   structured learning and hands-on projects.
                 </p>
                 <div className="flex gap-5 text-3xl text-zinc-400 ml-4">
-                  <i className="bx bxl-twitter hover:text-zinc-700 transition-colors"></i>
-                  <i className="bx bxl-instagram hover:text-zinc-700 transition-colors"></i>
-                  <i className="bx bxl-github hover:text-zinc-700 transition-colors"></i>
-                  <i className="bx bxl-linkedin hover:text-zinc-700 transition-colors"></i>
+                  <a href="https://www.linkedin.com/in/avinash-gundimeda/">
+                    <i className="bx bxl-linkedin hover:text-teal-600 transition-colors"></i>
+                  </a>
+                  <a href="https://github.com/avinashgundimeda">
+                    <i className="bx bxl-github hover:text-teal-600 transition-colors"></i>
+                  </a>
+                  {/* <a href="https://leetcode.com/">
+                    <SiLeetcode className="hover:text-teal-600 transition-colors" />
+                  </a> */}
+                  <a href="https://twitter.com/avinash_2006">
+                    <i className="bx bxl-twitter hover:text-teal-600 transition-colors"></i>
+                  </a>
+                  <a href="https://www.reddit.com/user/avinash_2006/">
+                    <i className="bx bxl-reddit hover:text-teal-600 transition-colors"></i>
+                  </a>
                 </div>
               </div>
 
@@ -214,17 +225,16 @@ const Home = () => {
                   className="group relative flex flex-col items-start"
                 >
                   <time className="text-sm text-zinc-400 border-l-2 border-zinc-200 pl-4 mb-3">
-                    Feb 12, 2024
+                    {/* Feb 12, 2024 */}Date : -
                   </time>
                   <h4 className="text-base font-semibold text-zinc-800 mb-2 group-hover:text-teal-500">
-                    The Benefits of Cloud Computing
+                    Internships
                   </h4>
                   <p className="text-sm text-zinc-600 leading-relaxed mb-4">
-                    Cloud computing offers scalable infrastructure, flexibility,
-                    and reduced operational costs...
+                    I've no interns please give me or select me to an intern...
                   </p>
                   <span className="text-teal-500 text-sm font-medium">
-                    Read article →
+                    View More →
                   </span>
                 </article>
               ))}

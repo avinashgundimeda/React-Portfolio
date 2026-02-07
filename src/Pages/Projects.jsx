@@ -1,12 +1,11 @@
 import React from "react";
-import js from "../assets/logos/js.png";
+import js from "../assets/skillsLogos/js.png";
 import animate from "../assets/animate.png";
-import react from "../assets/logos/react.svg";
+import react from "../assets/skillsLogos/reactjs.png";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import python from "../assets/Skills/Python.svg";
-import java from "../assets/Skills/Java.svg";
-
+import python from "../assets/skillsLogos/python.png";
+import java from "../assets/skillsLogos/java.png";
 
 const Projects = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,7 +32,7 @@ const Projects = () => {
               <img
                 src={animate}
                 alt="Avatar"
-                className="w-15 h-15 rounded-full border-2 border-white bg-white mt-5"
+                className="w-16 h-16 rounded-full border-2 border-white mt-5"
               />
             </div>
             {/* Spacer for symmetry */}
@@ -108,8 +107,9 @@ const Projects = () => {
                   HTML
                 </span>
                 <p className="text-sm text-zinc-600 leading-relaxed mb-5">
-                  A weather application that provides real-time weather updates and forecasts using JavaScript and Tailwind CSS.
-                  incidunt voluptatem ex tempore repellendus.
+                  A weather application that provides real-time weather updates
+                  and forecasts using JavaScript and Tailwind CSS. incidunt
+                  voluptatem ex tempore repellendus.
                 </p>
 
                 <div className="flex items-center gap-4 px-2 py-0.5">
@@ -137,7 +137,8 @@ const Projects = () => {
                   React
                 </span>
                 <p className="text-sm text-zinc-600 leading-relaxed mb-5">
-                  A personal portfolio website to showcase projects and skills, built with React and Tailwind CSS.  
+                  A personal portfolio website to showcase projects and skills,
+                  built with React and Tailwind CSS.
                 </p>
 
                 <div className="flex items-center gap-4 px-2 py-0.5">
@@ -153,7 +154,11 @@ const Projects = () => {
               {/* Project 4 */}
               <div className="group cursor-pointer p-6 rounded-2xl bg-white transition-all duration-300 hover:shadow-xl">
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-xl transition-transform duration-300 group-hover:scale-110">
-                  <img src={python} alt="JS" className="w-10 h-10 rounded-[4px]" />
+                  <img
+                    src={python}
+                    alt="JS"
+                    className="w-10 h-10 rounded-[4px]"
+                  />
                 </div>
                 <h3 className="text-base font-semibold text-zinc-900 mb-1">
                   A Data Analysis Tool
@@ -168,7 +173,8 @@ const Projects = () => {
                   Matplotlib
                 </span>
                 <p className="text-sm text-zinc-600 leading-relaxed mb-5">
-                  A data analysis tool that processes and visualizes datasets using Python libraries like Pandas and Matplotlib.
+                  A data analysis tool that processes and visualizes datasets
+                  using Python libraries like Pandas and Matplotlib.
                 </p>
 
                 <div className="flex items-center gap-4 px-2 py-0.5">
@@ -183,12 +189,16 @@ const Projects = () => {
               {/* Project  5*/}
               <div className="group cursor-pointer p-6 rounded-2xl bg-white transition-all duration-300 hover:shadow-xl">
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-xl transition-transform duration-300 group-hover:scale-110">
-                  <img src={react} alt="JS" className="w-10 h-10 rounded-[4px]" />
+                  <img
+                    src={react}
+                    alt="JS"
+                    className="w-10 h-10 rounded-[4px]"
+                  />
                 </div>
                 <h3 className="text-base font-semibold text-zinc-900 mb-1">
                   chat application
                 </h3>
-              
+
                 <span className="inline-block px-2 py-0.5 text-xs font-medium rounded-full bg-amber-100 text-amber-700 mb-3">
                   Tailwind
                 </span>
@@ -196,8 +206,8 @@ const Projects = () => {
                   React
                 </span>
                 <p className="text-sm text-zinc-600 leading-relaxed mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
-                    incidunt voluptatem ex tempore repellendus.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
+                  incidunt voluptatem ex tempore repellendus.
                 </p>
 
                 <div className="flex items-center gap-4 px-2 py-0.5">
@@ -209,7 +219,7 @@ const Projects = () => {
                   <i className="bx bxl-github text-lg text-zinc-500 hover:text-zinc-700 transition-colors cursor-pointer"></i>
                 </div>
               </div>
-               <div className="group cursor-pointer p-6 rounded-2xl bg-white transition-all duration-300 hover:shadow-xl">
+              <div className="group cursor-pointer p-6 rounded-2xl bg-white transition-all duration-300 hover:shadow-xl">
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-xl transition-transform duration-300 group-hover:scale-110">
                   <img
                     src={react}
@@ -241,10 +251,14 @@ const Projects = () => {
                   <i className="bx bxl-github text-lg text-zinc-500 hover:text-zinc-700 transition-colors cursor-pointer"></i>
                 </div>
               </div>
-               {/* Project 7 */}
+              {/* Project 7 */}
               <div className="group cursor-pointer p-6 rounded-2xl bg-white transition-all duration-300 hover:shadow-xl">
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-xl transition-transform duration-300 group-hover:scale-110">
-                  <img src={java} alt="JS" className="w-10 h-10 rounded-[4px]" />
+                  <img
+                    src={java}
+                    alt="JS"
+                    className="w-10 h-10 rounded-[4px]"
+                  />
                 </div>
                 <h3 className="text-base font-semibold text-zinc-900 mb-1">
                   Password Generator
@@ -259,7 +273,9 @@ const Projects = () => {
                   AWT
                 </span>
                 <p className="text-sm text-zinc-600 leading-relaxed mb-5">
-                  A password generator application built using Java Swing and AWT. It allows users to create secure passwords with customizable options.
+                  A password generator application built using Java Swing and
+                  AWT. It allows users to create secure passwords with
+                  customizable options.
                 </p>
 
                 <div className="flex items-center gap-4 px-2 py-0.5">
@@ -271,7 +287,7 @@ const Projects = () => {
                   <i className="bx bxl-github text-lg text-zinc-500 hover:text-zinc-700 transition-colors cursor-pointer"></i>
                 </div>
               </div>
-               <div className="group cursor-pointer p-6 rounded-2xl bg-white transition-all duration-300 hover:shadow-xl">
+              <div className="group cursor-pointer p-6 rounded-2xl bg-white transition-all duration-300 hover:shadow-xl">
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-xl transition-transform duration-300 group-hover:scale-110">
                   <img
                     src={react}
@@ -289,7 +305,9 @@ const Projects = () => {
                   React
                 </span>
                 <p className="text-sm text-zinc-600 leading-relaxed mb-5">
-                  A library management system built with React and Tailwind CSS. It includes features for managing book inventory, user accounts, and borrowing records.
+                  A library management system built with React and Tailwind CSS.
+                  It includes features for managing book inventory, user
+                  accounts, and borrowing records.
                 </p>
 
                 <div className="flex items-center gap-4 px-2 py-0.5">
@@ -301,7 +319,7 @@ const Projects = () => {
                   <i className="bx bxl-github text-lg text-zinc-500 hover:text-zinc-700 transition-colors cursor-pointer"></i>
                 </div>
               </div>
-               {/* Project 8 */}
+              {/* Project 8 */}
               <div className="group cursor-pointer p-6 rounded-2xl bg-white transition-all duration-300 hover:shadow-xl">
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-xl transition-transform duration-300 group-hover:scale-110">
                   <img src={js} alt="JS" className="w-10 h-10 rounded-[4px]" />
@@ -315,9 +333,10 @@ const Projects = () => {
                 <span className="inline-block px-2 py-0.5 text-xs font-medium rounded-full bg-amber-100 text-amber-700 mb-3">
                   Tailwind
                 </span>
-               
+
                 <p className="text-sm text-zinc-600 leading-relaxed mb-5">
-                  A task manager application that helps users organize and track their tasks using JavaScript and Tailwind CSS.
+                  A task manager application that helps users organize and track
+                  their tasks using JavaScript and Tailwind CSS.
                 </p>
 
                 <div className="flex items-center gap-4 px-2 py-0.5">
@@ -329,7 +348,7 @@ const Projects = () => {
                   <i className="bx bxl-github text-lg text-zinc-500 hover:text-zinc-700 transition-colors cursor-pointer"></i>
                 </div>
               </div>
-               <div className="group cursor-pointer p-6 rounded-2xl bg-white transition-all duration-300 hover:shadow-xl">
+              <div className="group cursor-pointer p-6 rounded-2xl bg-white transition-all duration-300 hover:shadow-xl">
                 <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-xl transition-transform duration-300 group-hover:scale-110">
                   <img
                     src={python}
@@ -350,7 +369,9 @@ const Projects = () => {
                   Pandas
                 </span>
                 <p className="text-sm text-zinc-600 leading-relaxed mb-5">
-                  A data visualization dashboard built with Python, Matplotlib, and Pandas. It provides interactive charts and graphs to analyze complex datasets.
+                  A data visualization dashboard built with Python, Matplotlib,
+                  and Pandas. It provides interactive charts and graphs to
+                  analyze complex datasets.
                 </p>
 
                 <div className="flex items-center gap-4 px-2 py-0.5">

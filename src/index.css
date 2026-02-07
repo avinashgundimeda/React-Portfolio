@@ -1,27 +1,22 @@
-@keyframes skill-carousel {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.animate-skill-carousel {
-  animation: skill-carousel 10s linear infinite;
-}
+@layer utilities {
+  .animate-skill-carousel {
+    animation: skill-carousel 30s linear infinite;
+  }
 
-/* Pause animation on hover */
-.group:hover .animate-skill-carousel {
-  animation-play-state: paused;
-}
-// tailwind.config.js
-module.exports = {
-  theme: {
-    extend: {
-      fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-      },
-    },
-  },
+  .animate-skill-carousel:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes skill-carousel {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
 }
