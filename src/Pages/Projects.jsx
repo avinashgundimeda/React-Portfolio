@@ -1,9 +1,7 @@
-import React from "react";
 import js from "../assets/skillsLogos/js.png";
 import animate from "../assets/animate.png";
 import react from "../assets/skillsLogos/reactjs.png";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import python from "../assets/skillsLogos/python.png";
 import java from "../assets/skillsLogos/java.png";
 
@@ -23,7 +21,6 @@ const Projects = () => {
       <div className="min-h-screen bg-[#fafafa] font-sans selection:bg-teal-100">
         <nav className="fixed top-0 w-full z-50 flex justify-center pointer-events-none">
           <div className="w-full max-w-6xl px-8 flex items-center justify-between h-20">
-            {/* Morphing Image Container */}
             <div
               className={`transition-opacity duration-300 pointer-events-auto ${
                 isScrolled ? "opacity-100" : "opacity-0"
@@ -35,12 +32,10 @@ const Projects = () => {
                 className="w-16 h-16 rounded-full border-2 border-white mt-5"
               />
             </div>
-            {/* Spacer for symmetry */}
           </div>
         </nav>
         <div className="min-h-screen bg-[#fafafa] flex justify-center">
           <div className="w-full max-w-6xl px-8 py-24 bg-white">
-            {/* Page Header */}
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-6">
               Things I’ve made trying to put my dent in the universe.
             </h1>

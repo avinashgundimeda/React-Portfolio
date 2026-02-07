@@ -78,12 +78,23 @@ const Contact = () => {
               <h3 className="text-sm font-semibold text-gray-900 mb-3">
                 Social
               </h3>
-              <div className="flex gap-5 text-xl text-gray-600">
-                <i className="bx bxl-github hover:text-gray-900 transition-colors cursor-pointer"></i>
-                <i className="bx bxl-linkedin hover:text-gray-900 transition-colors cursor-pointer"></i>
-                <i className="bx bxl-twitter hover:text-gray-900 transition-colors cursor-pointer"></i>
-                <i className="bx bxl-instagram hover:text-gray-900 transition-colors cursor-pointer"></i>
-              </div>
+               <div className="flex gap-5 text-xl text-zinc-400 ml-4">
+                  <a href="https://www.linkedin.com/in/avinash-gundimeda/">
+                    <i className="bx bxl-linkedin hover:text-teal-600 transition-colors"></i>
+                  </a>
+                  <a href="https://github.com/avinashgundimeda">
+                    <i className="bx bxl-github hover:text-teal-600 transition-colors"></i>
+                  </a>
+                  {/* <a href="https://leetcode.com/">
+                    <SiLeetcode className="hover:text-teal-600 transition-colors" />
+                  </a> */}
+                  <a href="https://twitter.com/avinash_2006">
+                    <i className="bx bxl-twitter hover:text-teal-600 transition-colors"></i>
+                  </a>
+                  <a href="https://www.reddit.com/user/avinash_2006/">
+                    <i className="bx bxl-reddit hover:text-teal-600 transition-colors"></i>
+                  </a>
+                </div>
             </div>
 
             {/* Contact Form */}

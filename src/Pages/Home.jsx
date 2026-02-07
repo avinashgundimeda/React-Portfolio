@@ -68,7 +68,7 @@ const Home = () => {
                   building useful products, and continuously improving through
                   structured learning and hands-on projects.
                 </p>
-                <div className="flex gap-5 text-3xl text-zinc-400 ml-4">
+                <div className="flex gap-5 text-2xl text-zinc-400 ml-4">
                   <a href="https://www.linkedin.com/in/avinash-gundimeda/">
                     <i className="bx bxl-linkedin hover:text-teal-600 transition-colors"></i>
                   </a>
