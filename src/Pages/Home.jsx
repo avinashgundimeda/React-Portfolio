@@ -104,21 +104,23 @@ const Home = () => {
             {/* Project 1 */}
             <div className="group cursor-pointer p-6 rounded-2xl bg-white transition-all duration-300 hover:shadow-xl">
               <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-xl transition-transform duration-300 group-hover:scale-110">
-                <img src={react} alt="JS" className="w-10 h-10 rounded-[4px]" />
+                <img src={js} alt="JS" className="w-10 h-10 rounded-[4px]" />
               </div>
               <h3 className="text-base font-semibold text-zinc-900 mb-1">
-                An Ecommerce Website
+                A Movie Website
               </h3>
               <p className="text-sm text-zinc-600 leading-relaxed mb-5">
-                A fully functional ecommerce website built with React and
-                Tailwind CSS. Features include product listings, shopping cart,
-                and checkout process.
+                A fully functional Movie website built with js and
+                Tailwind CSS. Features include movie listings, movie details,
+                and movie search.
               </p>
 
               <div className="flex items-center gap-4 px-2 py-0.5">
-                <div className="flex items-center gap-2 text-sm font-medium text-teal-600 opacity-80 group-hover:opacity-100 transition-all cursor-pointer">
+                <div className="flex items-center gap-2 text-sm font-medium text-black hover:text-teal-600  opacity-80 group-hover:opacity-100 transition-all cursor-pointer">
                   <i className="bx bx-link"></i>
+                  <a href="https://github.com/avinashgundimeda/Movie-Website">
                   <span>View Project</span>
+                  </a>
                 </div>
               </div>
             </div>

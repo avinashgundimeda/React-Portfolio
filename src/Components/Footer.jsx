@@ -13,8 +13,8 @@ const Footer = () => {
           <div className="max-w-xs">
             <h2 className="text-lg font-semibold text-gray-900 mb-2">Avinash Gundimeda</h2>
             <p className="text-sm leading-relaxed">
-              Frontend Developer | Cybersecurity Student | Game Dev Enthusiast<br />
-              Passionate about building clean user experiences and useful digital products.
+              Frontend Developer | Cybersecurity Student <br /> Game Developer<br />
+              "If you want to shine like sun first you have to burn like it" <br /> ― Adolf Hitler
             </p>
           </div>
 
@@ -33,17 +33,22 @@ const Footer = () => {
           <div>
             <h3 className="font-medium text-gray-900 text-sm mb-2">Connect</h3>
             <div className="flex gap-4 text-lg">
-              <i className="bx bxl-github hover:text-gray-900 cursor-pointer"></i>
+              <a href="https://www.linkedin.com/in/avinash-gundimeda/">
               <i className="bx bxl-linkedin hover:text-gray-900 cursor-pointer"></i>
+              </a>
+              <a href="https://twitter.com/avinash_2006/">
               <i className="bx bxl-twitter hover:text-gray-900 cursor-pointer"></i>
+              </a>
+              <a href="https://www.instagram.com/avinash_2006/">
               <i className="bx bxl-instagram hover:text-gray-900 cursor-pointer"></i>
+              </a>
             </div>
           </div>
         </div>
 
         {/* DIVIDER */}
         <div className="border-t mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 gap-4">
-          <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Avinash Gundimeda. All rights reserved.</p>
           <p className="text-xs">Designed & Built by Avinash..</p>
         </div>
       </div>
