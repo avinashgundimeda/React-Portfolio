@@ -70,19 +70,19 @@ const Home = () => {
                 </p>
                 <div className="flex gap-5 text-2xl text-zinc-400 ml-4">
                   <a href="https://www.linkedin.com/in/avinash-gundimeda/">
-                    <i className="bx bxl-linkedin hover:text-teal-600 transition-colors"></i>
+                    <i className="bx bxl-linkedin hover:text-[#0e76a8] transition-colors"></i>
                   </a>
                   <a href="https://github.com/avinashgundimeda">
-                    <i className="bx bxl-github hover:text-teal-600 transition-colors"></i>
+                    <i className="bx bxl-github hover:text-black transition-colors"></i>
                   </a>
                   {/* <a href="https://leetcode.com/">
                     <SiLeetcode className="hover:text-teal-600 transition-colors" />
                   </a> */}
-                  <a href="https://twitter.com/avinash_2006">
-                    <i className="bx bxl-twitter hover:text-teal-600 transition-colors"></i>
+                  <a href="https://twitter.com/@Avinash071079">
+                    <i className="bx bxl-twitter hover:text-black transition-colors"></i>
                   </a>
-                  <a href="https://www.reddit.com/user/avinash_2006/">
-                    <i className="bx bxl-reddit hover:text-teal-600 transition-colors"></i>
+                  <a href="https://www.reddit.com/user/avinash_2006/ alt='Reddit'">
+                    <i className="bx bxl-reddit hover:text-[#FF4500] transition-colors"></i>
                   </a>
                 </div>
               </div>
