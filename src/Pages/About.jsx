@@ -20,6 +20,9 @@ import nodejs from "../assets/skillsLogos/nodejs.png";
 import docker from "../assets/skillsLogos/docker.png";
 import reddit from "../assets/skillsLogos/reddit.png";
 import bootstrap from "../assets/skillsLogos/bootstrap.png";
+import mongodb from '../assets/skillsLogos/mongo.png';
+import express from '../assets/skillsLogos/express.png';
+import postman from '../assets/skillsLogos/postman.png';
 import animate from "../assets/animate.png";
 
 const About = () => {
@@ -62,7 +65,7 @@ const About = () => {
                 About Me
               </h2>
               <p className="text-gray-700 leading-relaxed mb-8">
-                I am a frontend developer and cybersecurity student with ongoing
+                I am a <span className="font-medium text-teal-500">MERN</span> stack developer and <span className="font-medium text-teal-500">Cybersecurity</span> student with ongoing
                 interest in game development and digital content creation. My
                 focus is on understanding how technology works, building useful
                 products, and continuously improving through structured learning
@@ -72,83 +75,182 @@ const About = () => {
               </p>
             </div>
 
-            {/* EDUCATION SECTION */}
-            <div className="mt-12">
-              <h3 className="text-lg font-semibold text-gray-900 mb-6">
-                Education
-              </h3>
+{/* EDUCATION SECTION */}
+<div className="mt-12">
+  <h3 className="text-lg font-semibold text-gray-900 mb-6">Education</h3>
+  <div className="border-l-2 border-gray-300 pl-6 space-y-8">
+    <div>
+      <p className="text-sm text-gray-500">2023 — Present</p>
+      <h4 className="text-base font-medium text-gray-800">
+        B.Tech in Computer Science (Cybersecurity)
+      </h4>
+      <p className="text-sm text-gray-600">Mohan Babu University, Tirupati</p>
+      <span className="inline-block mt-1.5 text-xs font-medium text-teal-700 bg-teal-50 border border-teal-100 rounded-full px-3 py-0.5">
+        CGPA: 8.4 / 10
+      </span>
+    </div>
+    <div>
+      <p className="text-sm text-gray-500">2021 — 2023</p>
+      <h4 className="text-base font-medium text-gray-800">Intermediate (MPC)- Maths, Physics, Chemistry</h4>
+      <p className="text-sm text-gray-600">Sri Sar Junior College</p>
+      <span className="inline-block mt-1.5 text-xs font-medium text-teal-700 bg-teal-50 border border-teal-100 rounded-full px-3 py-0.5">
+        Score: 92%
+      </span>
+    </div>
+    <div>
+      <p className="text-sm text-gray-500">2020 — 2021</p>
+      <h4 className="text-base font-medium text-gray-800">
+        Secondary School Education
+      </h4>
+      <p className="text-sm text-gray-600">Universal High School - Inkollu</p>
+      <span className="inline-block mt-1.5 text-xs font-medium text-teal-700 bg-teal-50 border border-teal-100 rounded-full px-3 py-0.5">
+        Score: 95%
+      </span>
+    </div>
+  </div>
+</div>
 
-              <div className="border-l-2 border-gray-300 pl-6 space-y-6">
-                <div>
-                  <p className="text-sm text-gray-500">2023 — Present</p>
-                  <h4 className="text-base font-medium text-gray-800">
-                    B.Tech in Computer Science (Cybersecurity)
-                  </h4>
-                  <p className="text-sm text-gray-600">
-                    Mohan Babu University, Tirupati
-                  </p>
-                </div>
+{/* WHAT I DO SECTION */}
+<div className="mt-16">
+  <h3 className="text-lg font-semibold text-gray-900 mb-6">What I Do</h3>
+  <div className="grid md:grid-cols-3 gap-7">
+    <div className="border border-gray-100 rounded-2xl p-5 bg-[#fafafa]">
+      <div className="w-8 h-8 rounded-lg bg-teal-50 flex items-center justify-center mb-3">
+        <i className="bx bx-code-alt text-teal-600 text-lg"></i>
+      </div>
+      <h4 className="font-medium text-gray-800 mb-2">MERN Stack</h4>
+      <p className="text-sm text-gray-600 leading-relaxed">
+        Building responsive web applications using MongoDB, Express, React, and
+        Node.js to create full-stack solutions.
+      </p>
+    </div>
+    <div className="border border-gray-100 rounded-2xl p-5 bg-[#fafafa]">
+      <div className="w-8 h-8 rounded-lg bg-teal-50 flex items-center justify-center mb-3">
+        <i className="bx bx-shield-alt-2 text-teal-600 text-lg"></i>
+      </div>
+      <h4 className="font-medium text-gray-800 mb-2">Cybersecurity</h4>
+      <p className="text-sm text-gray-600 leading-relaxed">
+        Exploring network security, cryptography, and ethical hacking — with a
+        focus on building tools that protect digital infrastructure.
+      </p>
+    </div>
+    <div className="border border-gray-100 rounded-2xl p-5 bg-[#fafafa]">
+      <div className="w-8 h-8 rounded-lg bg-teal-50 flex items-center justify-center mb-3">
+        <i className="bx bx-cloud text-teal-600 text-lg"></i>
+      </div>
+      <h4 className="font-medium text-gray-800 mb-2">Cloud & DevOps</h4>
+      <p className="text-sm text-gray-600 leading-relaxed">
+        Working with cloud platforms, Docker, and deployment pipelines to ship
+        and scale web applications efficiently.
+      </p>
+    </div>
+    <div className="border border-gray-100 rounded-2xl p-5 bg-[#fafafa]">
+      <div className="w-8 h-8 rounded-lg bg-teal-50 flex items-center justify-center mb-3">
+        <i className="bx bx-laptop text-teal-600 text-lg"></i>
+      </div>
+      <h4 className="font-medium text-gray-800 mb-2">DSA </h4>
+      <p className="text-sm text-gray-600 leading-relaxed">
+        Solving algorithmic problems and improving problem-solving skills using data structures and algorithms.
+      </p>
+    </div>
+    <div className="border border-gray-100 rounded-2xl p-5 bg-[#fafafa]">
+      <div className="w-8 h-8 rounded-lg bg-teal-50 flex items-center justify-center mb-3">
+        <i className="bx bx-joystick text-teal-600 text-lg"></i>
+      </div>
+      <h4 className="font-medium text-gray-800 mb-2">Game Dev</h4>
+      <p className="text-sm text-gray-600 leading-relaxed">
+        Creating interactive games and simulations using engines like Unity and Unreal, with a focus on gameplay mechanics and design.
+      </p>
+    </div>
+    <div className="border border-gray-100 rounded-2xl p-5 bg-[#fafafa]">
+      <div className="w-8 h-8 rounded-lg bg-teal-50 flex items-center justify-center mb-3">
+        <i className="bx bx-game text-teal-600 text-lg"></i>
+      </div>
+      <h4 className="font-medium text-gray-800 mb-2">Playing Video Games</h4>
+      <p className="text-sm text-gray-600 leading-relaxed">
+        I enjoy playing a variety of video games, which helps me stay inspired and understand different game design philosophies.
+        Games like RDR2, Ghost of Tsushima offer rich storytelling and immersive gameplay experiences.
+      </p>
+    </div>
+  </div>
+</div>
 
-                <div>
-                  <p className="text-sm text-gray-500">2021 — 2023</p>
-                  <h4 className="text-base font-medium text-gray-800">
-                    Intermediate (MPC)
-                  </h4>
-                  <p className="text-sm text-gray-600">
-                    Sri Sar Junior College
-                  </p>
-                </div>
+{/* SKILLS SECTION */}
+<div className="mt-16">
+  <h3 className="text-lg font-semibold text-gray-900 mb-8">Skills</h3>
+  <div className="grid md:grid-cols-2 gap-6">
+    {[
+      {
+        category: "Programming",
+        skills: ["Python", "Java", "JavaScript"],
+      },
+      {
+        category: "Web Development",
+        skills: ["HTML", "CSS", "React.js", "Node.js", "Express.js", "Tailwind CSS", "Framer Motion", "Vite"],
+      },
+      {
+        category: "Databases",
+        skills: ["MongoDB", "MySQL"],
+      },
+      {
+        category: "Tools & Technologies",
+        skills: ["Git", "GitHub", "VS Code", "Arduino", "VMware", "Postman", "Netlify", "Cloudflare"],
+      },
+      {
+        category: "Cybersecurity",
+        skills: ["Web Application Security", "Breach Detection", "VAPT Concepts", "Network Security"],
+      },
+      // {
+      //   category: "AI & ML",
+      //   skills: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "TensorFlow (Basics)", "Data Preprocessing", "Feature Engineering", "Model Evaluation"],
+      // },
+      {
+        category: "Game Development",
+        skills: ["Blender", "Godot", "Unreal Engine"],
+      },
+    ].map(({ category, skills }) => (
+      <div
+        key={category}
+        className="border-l-2 border-teal-400 pl-4 py-1"
+      >
+        <p className="text-xs font-semibold text-teal-600 uppercase tracking-widest mb-2.5">
+          {category}
+        </p>
+        <div className="flex flex-wrap gap-1.5">
+          {skills.map((s) => (
+            <span
+              key={s}
+              className="text-xs px-2.5 py-1 rounded-md bg-gray-50 border border-gray-100 text-gray-700"
+            >
+              {s}
+            </span>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
 
-                <div>
-                  <p className="text-sm text-gray-500">2020 — 2021</p>
-                  <h4 className="text-base font-medium text-gray-800">
-                    Secondary School Education
-                  </h4>
-                  <p className="text-sm text-gray-600">
-                    Universal High School - Inkollu
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* WHAT I DO SECTION */}
-            <div className="mt-16">
-              <h3 className="text-lg font-semibold text-gray-900 mb-6">
-                What I Do
-              </h3>
-
-              <div className="grid md:grid-cols-3 gap-10">
-                <div>
-                  <h4 className="font-medium text-gray-800 mb-2">
-                    Frontend Development
-                  </h4>
-                  <p className="text-sm text-gray-600 leading-relaxed">
-                    Building user interfaces and interactive web experiences. I
-                    focus on usability, clarity, and responsive design.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-medium text-gray-800 mb-2">
-                    Cybersecurity
-                  </h4>
-                  <p className="text-sm text-gray-600 leading-relaxed">
-                    Learning security fundamentals, system vulnerabilities, and
-                    how to protect digital infrastructure.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-medium text-gray-800 mb-2">
-                    Game Development & Content
-                  </h4>
-                  <p className="text-sm text-gray-600 leading-relaxed">
-                    Experimenting with game engines and sharing content related
-                    to tech, learning, and creative work.
-                  </p>
-                </div>
-              </div>
-            </div>
+{/* CERTIFICATIONS SECTION */}
+<div className="mt-16">
+  <h3 className="text-lg font-semibold text-gray-900 mb-6">Certifications</h3>
+  <div className="space-y-4 max-w-xl">
+    {[
+      { title: "Google Cybersecurity Certificate", issuer: "Google / Coursera", year: "2024" },
+      { title: "The Web Developer Bootcamp", issuer: "Udemy — Colt Steele", year: "2024" },
+      { title: "MongoDB for Developers", issuer: "MongoDB University", year: "2024" },
+      { title: "Cloud Computing Fundamentals", issuer: "NPTEL", year: "2024" },
+    ].map((cert, i) => (
+      <div key={i} className="flex items-start justify-between border border-gray-100 rounded-xl px-5 py-4 bg-[#fafafa]">
+        <div>
+          <p className="text-sm font-medium text-gray-800">{cert.title}</p>
+          <p className="text-xs text-gray-500 mt-0.5">{cert.issuer}</p>
+        </div>
+        <span className="text-xs text-gray-400 mt-0.5 shrink-0 ml-4">{cert.year}</span>
+      </div>
+    ))}
+  </div>
+</div>
 
             {/* SKILLS SECTION */}
             <div className="mt-20">
@@ -172,6 +274,18 @@ const About = () => {
                     </span>
                   </div>
 
+                   <div className="flex flex-col items-center group">
+                    <div className="h-14 w-14 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <img
+                        src={mongodb}
+                        className="h-14 group-hover:brightness-110 transition-all duration-300"
+                        alt="MongoDB"
+                      />
+                    </div>
+                    <span className="text-xs font-medium text-gray-600 mt-2 group-hover:text-blue-600 transition-colors duration-300">
+                      MongoDB
+                    </span>
+                  </div>
                   <div className="flex flex-col items-center group">
                     <div className="h-14 w-14 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                       <img
@@ -210,7 +324,18 @@ const About = () => {
                       NodeJS
                     </span>
                   </div>
-
+                  <div className="flex flex-col items-center group">
+                    <div className="h-14 w-14 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <img
+                        src={express}
+                        className="h-14 group-hover:brightness-110 transition-all duration-300"
+                        alt="Express.js"
+                      />
+                    </div>
+                    <span className="text-xs font-medium text-gray-600 mt-2 group-hover:text-green-600 transition-colors duration-300">
+                      Express.js
+                    </span>
+                  </div>
                   <div className="flex flex-col items-center group">
                     <div className="h-14 w-14 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                       <img
@@ -299,7 +424,18 @@ const About = () => {
                       Git
                     </span>
                   </div>
-
+                  <div className="flex flex-col items-center group">
+                    <div className="h-14 w-14 flex items-center justify-center group-hover:scale-110 transition-transform duration-3000">
+                      <img
+                        src={postman}
+                        className="h-14 group-hover:brightness-110 transition-all duration-300"
+                        alt="Postman"
+                      />
+                    </div>
+                    <span className="text-xs font-medium text-gray-600 mt-2 group-hover:text-blue-600 transition-colors duration-3000">
+                      Postman
+                    </span>
+                  </div>
                   <div className="flex flex-col items-center group">
                     <div className="h-14 w-14 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                       <img

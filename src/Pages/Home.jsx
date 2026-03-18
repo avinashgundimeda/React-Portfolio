@@ -6,7 +6,7 @@ import js from "../assets/skillsLogos/js.png";
 import animate from "../assets/animate.png";
 import react from "../assets/skillsLogos/reactjs.png";
 import python from "../assets/skillsLogos/python.png";
-
+import Resume from '../assets/resume/avinash.pdf';
 const Home = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -57,12 +57,12 @@ const Home = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
               <div>
-                <h1 className="text-4xl md:text-4xl leading-[20px] font-bold leading-[1.1] text-zinc-800 mb-6 ml-4">
-                  Full stack developer, Cyber Security, Game developer, and
+                <h1 className="text-4xl md:text-4xl leading-[20px] font-bold leading-[1.1] text-zinc-800 mb-6 ml-4 ">
+                  MERN, Cyber Security,<br />Game developer & <br />
                   Content creator.
                 </h1>
                 <p className="text-[18px] leading-[1.7] tracking-[0.2px] text-gray-600 font-normal mb-8 text-base ml-4">
-                  I am a Full stack developer and cybersecurity student with
+                  I am a <span className="text-teal-500">MERN</span> stack developer and cybersecurity student with
                   ongoing interest in game development and digital content
                   creation. My focus is on understanding how technology works,
                   building useful products, and continuously improving through
@@ -261,9 +261,11 @@ const Home = () => {
                 </div>
                 {/* Repeat for other jobs */}
               </div>
-              <button className="w-full mt-6 py-2 px-4 bg-zinc-50 text-zinc-900 rounded-md text-sm font-semibold hover:bg-zinc-100 transition">
-                Download Resume <i className="bx bx-download ml-2"></i>
+              <a href={Resume} className="">
+                  <button className="w-full mt-6 py-2 px-4 bg-zinc-50 text-zinc-900 rounded-md text-sm font-semibold hover:bg-zinc-100 transition">
+                Download Resume <i className="bx bx-download ml-2 "></i>
               </button>
+              </a>
             </div>
           </div>
         </div>
