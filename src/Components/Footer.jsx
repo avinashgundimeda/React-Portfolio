@@ -13,7 +13,8 @@ const Footer = () => {
           <div className="max-w-xs">
             <h2 className="text-lg font-semibold text-gray-900 mb-2">Avinash Gundimeda</h2>
             <p className="text-sm leading-relaxed">
-              Frontend Developer | Cybersecurity Student <br /> Game Developer<br />
+              MERN  | Cybersecurity  | Game Developer
+              <br />
               "If you want to shine like sun first you have to burn like it" <br /> ― Adolf Hitler
             </p>
           </div>

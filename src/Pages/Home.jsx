@@ -7,6 +7,7 @@ import animate from "../assets/animate.png";
 import react from "../assets/skillsLogos/reactjs.png";
 import python from "../assets/skillsLogos/python.png";
 import Resume from '../assets/resume/avinash.pdf';
+import electron from "../assets/skillsLogos/electron.png";
 const Home = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -107,18 +108,16 @@ const Home = () => {
                 <img src={js} alt="JS" className="w-10 h-10 rounded-[4px]" />
               </div>
               <h3 className="text-base font-semibold text-zinc-900 mb-1">
-                A Movie Website
+                A NPM Package for Node.js Backend
               </h3>
               <p className="text-sm text-zinc-600 leading-relaxed mb-5">
-                A fully functional Movie website built with js and
-                Tailwind CSS. Features include movie listings, movie details,
-                and movie search.
+                A powerful CLI tool to instantly scaffold a production-ready Node.js backend with best practices and essential dependencies pre-configured.
               </p>
 
               <div className="flex items-center gap-4 px-2 py-0.5">
                 <div className="flex items-center gap-2 text-sm font-medium text-black hover:text-teal-600  opacity-80 group-hover:opacity-100 transition-all cursor-pointer">
                   <i className="bx bx-link"></i>
-                  <a href="https://github.com/avinashgundimeda/Movie-Website">
+                  <a href="https://github.com/avinashgundimeda/create-template-backend.git" target="_blank" rel="noopener noreferrer">
                   <span>View Project</span>
                   </a>
                 </div>
@@ -128,22 +127,22 @@ const Home = () => {
             {/* Project 2 */}
             <div className="group cursor-pointer p-6 rounded-2xl bg-white transition-all duration-300 hover:shadow-xl">
               <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-xl transition-transform duration-300 group-hover:scale-110">
-                <img src={js} alt="JS" className="w-10 h-10 rounded-[4px]" />
+                <img src={electron} alt="Electron" className="w-10 h-10 rounded-[4px]" />
               </div>
               <h3 className="text-base font-semibold text-zinc-900 mb-1">
-                A Weather App
+                MySystem - A System Monitoring App
               </h3>
 
               <p className="text-sm text-zinc-600 leading-relaxed mb-5">
-                A weather application that provides real-time weather updates
-                and forecasts using JavaScript and Tailwind CSS. incidunt
-                voluptatem ex tempore repellendus.
+                MySystem is a lightweight desktop application built with Electron that provides real-time system monitoring. It displays essential system metrics such as CPU usage, memory usage, and temperature in a simple and clean interface.
               </p>
 
               <div className="flex items-center gap-4 px-2 py-0.5">
                 <div className="flex items-center gap-2 text-sm font-medium text-teal-600 opacity-80 group-hover:opacity-100 transition-all cursor-pointer">
                   <i className="bx bx-link"></i>
-                  <span>View Project</span>
+                  <a href="https://github.com/avinashgundimeda/mysystem.git" target="_blank" rel="noopener noreferrer">
+                    <span>View Project</span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -151,15 +150,14 @@ const Home = () => {
             {/* Project 3 */}
             <div className="group cursor-pointer p-6 rounded-2xl bg-white transition-all duration-300 hover:shadow-xl">
               <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-xl transition-transform duration-300 group-hover:scale-110">
-                <img src={js} alt="JS" className="w-10 h-10 rounded-[4px]" />
+                <img src={react} alt="React" className="w-10 h-10 rounded-[4px]" />
               </div>
               <h3 className="text-base font-semibold text-zinc-900 mb-1">
-                A Portfolio Website
+                CodeRn
               </h3>
 
               <p className="text-sm text-zinc-600 leading-relaxed mb-5">
-                A personal portfolio website to showcase projects and skills,
-                built with React and Tailwind CSS.
+                A lightweight, browser-based code editor built with React and Monaco Editor.
               </p>
 
               <div className="flex items-center gap-4 px-2 py-0.5">
