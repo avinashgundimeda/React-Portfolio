@@ -19,7 +19,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-[#fafafa] font-sans selection:bg-teal-100">
+      <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans selection:bg-teal-100 transition-colors duration-300">
         <nav className="fixed top-0 w-full z-50 flex justify-center pointer-events-none">
           <div className="w-full max-w-6xl px-8 flex items-center justify-between h-20">
             <div
@@ -35,8 +35,8 @@ const Projects = () => {
             </div>
           </div>
         </nav>
-        <div className="min-h-screen bg-[#fafafa] flex justify-center">
-          <div className="w-full max-w-6xl px-8 py-24 bg-white">
+        <div className="min-h-screen bg-[var(--bg-primary)] flex justify-center transition-colors duration-300">
+          <div className="w-full max-w-6xl px-8 py-24 bg-[var(--bg-surface)] transition-colors duration-300">
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-6">
               Things I’ve made trying to put my dent in the universe.
             </h1>

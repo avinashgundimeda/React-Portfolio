@@ -55,7 +55,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-[#fafafa] font-sans selection:bg-teal-100">
+      <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans selection:bg-teal-100 transition-colors duration-300">
         <nav className="fixed top-0 w-full z-50 flex justify-center pointer-events-none">
           <div className="w-full max-w-6xl px-8 flex items-center justify-between h-20">
             {/* Morphing Image Container */}
@@ -71,8 +71,8 @@ const Contact = () => {
           </div>
         </nav>
 
-        <div className="min-h-screen bg-[#fafafa] flex justify-center">
-          <div className="w-full max-w-6xl bg-white px-8 py-24">
+        <div className="min-h-screen bg-[var(--bg-primary)] flex justify-center transition-colors duration-300">
+          <div className="w-full max-w-6xl bg-[var(--bg-surface)] px-8 py-24 transition-colors duration-300">
             {/* Header */}
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
               Let's Connect

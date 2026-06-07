@@ -20,7 +20,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#fafafa] font-sans selection:bg-teal-100">
+    <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans selection:bg-teal-100 transition-colors duration-300">
       <nav className="fixed top-0 w-full z-50 flex justify-center pointer-events-none">
         <div className="w-full max-w-6xl px-8 flex items-center justify-between h-20">
           {/* Morphing Image Container */}
@@ -40,7 +40,8 @@ const Home = () => {
       </nav>
 
       <div className="flex justify-center">
-        <div className="w-full max-w-6xl px-8 pt-32 pb-24 bg-white">
+        <div className="w-full max-w-6xl px-8 pt-32 pb-24 bg-[var(--bg-surface)] transition-colors duration-300">
+
           {/* HERO SECTION */}
           <header className="mb-24">
             {/* Main Avatar (Disappears on scroll if you prefer, or just stays there) */}

@@ -12,9 +12,9 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full flex justify-center sticky top-0 z-50 ">
+    <nav className="w-full flex justify-center sticky top-0 z-50 transition-colors duration-300 bg-white dark:bg-[var(--bg-primary)]">
       <div className="max-w-6xl w-full flex justify-center py-5">
-        <div className="flex gap-1.5 px-2 py-1 rounded-full border border-gray-200 bg-white shadow-sm">
+        <div className="flex items-center gap-1.5 px-2 py-1 rounded-full border border-gray-200 dark:border-gray-700 bg-white dark:bg-[var(--bg-primary)] shadow-sm">
           {links.map((link) => (
             <Link
               key={link.path}
@@ -24,7 +24,7 @@ const Navbar = () => {
                 ${
                   pathname === link.path
                     ? "text-teal-600"
-                    : "text-gray-600 hover:text-teal-600"
+                    : "text-gray-600 dark:text-gray-300 hover:text-teal-600"
                 }
               `}
             >
