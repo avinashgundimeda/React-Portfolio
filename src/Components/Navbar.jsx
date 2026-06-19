@@ -20,7 +20,8 @@ const Navbar = () => {
               key={link.path}
               to={link.path}
               className={`
-                text-sm px-4 py-2 rounded-full transition-all font-medium
+                text-sm px-4 py-2 rounded-full transition-all font-medium  ];
+
                 ${
                   pathname === link.path
                     ? "text-teal-600"
